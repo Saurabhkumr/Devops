@@ -1,0 +1,17 @@
+"apple": "I am a red fruit"
+1: "My roll no"
+---
+#list
+- apple
+- banana
+- mango
+- Apple
+---
+cities:
+  - new delhi
+  - mumbai
+  - varanasi
+---
+cities: [new delhi, mumbai]
+---
+{ mango: "yellow fruit", age: 21 }

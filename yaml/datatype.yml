@@ -1,0 +1,50 @@
+# String variables
+name: Saurabh kumar
+fruit: "apple"
+job: 'swe'
+
+bio: |
+ hey my name is saurabh kumar.
+ i am a coder.
+
+#write a single line in multiple lines
+message: >
+ this will
+ all be
+ in one single line
+
+#same as 
+message: !!str this will all be in one single line
+
+number: 50
+marks: 78.99
+booleanValue: !!bool No  #n,N,false,False,FALSE
+# same for true
+
+# specify the type
+# int
+zero: !!int 0
+positiveNum: !!int 10
+negativeNum: !!int -10
+binaryNum: !!int 0b11010
+octalNum: !!int 06572
+exponentialNum: 6.03E56
+
+# floating number
+
+marks: !!float 56.098
+infinite: !!float .inf
+not a num: .nan
+
+#null
+surname: !!null Null #or null NULL ~
+~: this is null key
+
+#date and time
+date: !!timestamp 2024-04-19
+
+
+
+
+
+
