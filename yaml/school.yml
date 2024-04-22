@@ -1,0 +1,6 @@
+School:
+  - name: APS
+    principal: Sam
+    Students:
+      - name: saurabh
+        marks: 77

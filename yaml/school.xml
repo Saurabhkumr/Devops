@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<School name="APS" principal="Mohit sharma">
+  <Students>
+    <Student>
+      <rno>21</rno>
+      <name>"Saurbah"</name>
+      <marks>99</marks>
+    </Student>
+  </Students>
+</School>

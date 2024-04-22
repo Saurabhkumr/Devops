@@ -1,0 +1,25 @@
+{
+  "School":[
+  {
+    "name":"APS",
+    "principal":"Sam",
+    "Students":[
+      {
+        "name":"saurbah",
+        "rno":21,
+        "marks":88
+      },
+      {
+        "name":"anmol",
+        "rno":26,
+        "marks":77
+      },
+      {
+        "name":"rahul",
+        "rno":23,
+        "marks":84
+      }
+    ]
+  }
+]
+}

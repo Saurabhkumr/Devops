@@ -12,3 +12,70 @@ sparse seq:
   -
   - Null
   - sup
+
+
+# nested sequence
+-
+ - mango
+ - apple
+ - banana
+-
+ - marks
+ - roll num
+ - date
+
+# key - value pairs are calles map
+!!map
+
+#nested mapping
+
+name: saurabh kumar
+roll: {age: 21, job : student}
+
+# pairs : keys may have duplicate values
+#!!pairs
+
+pair example: !!pairs
+ - job: student
+ - job: teacher
+
+# same as 
+pair example: !!pairs  [job: student, job: teacher]
+
+# this will be an array of hashtable
+
+# !!set will allow you to have unnique value
+name: !!set
+ ? saurabh
+ ? anmol
+ ? rahul
+
+# dictionary !!omap
+
+People: !!omap
+ - saurbah:
+      name: saurabh kumar
+      age: 21
+      height: 170
+ - anmol:
+      name: anmol singh
+      age: 22
+      height: 180     
+
+# reusing some properties using anchors
+Likings: &likes
+   fav fruit: mago
+   dislikes: grapes
+
+person1:
+   name: saurabh kumar
+   <<: *likes
+
+person2:
+   name: rahul kumar
+   <<: *likes
+
+person3:
+   name: anmol
+   <<: *likes
+   dislikes: berries
